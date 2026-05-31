@@ -1,0 +1,112 @@
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+Unsloth: Your Flash Attention 2 installation seems to be broken. Using Xformers instead. No performance changes will be seen.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+Loading CHIMBISIAI v1...
+==((====))==  Unsloth 2026.5.8: Fast Qwen2 patching. Transformers: 5.5.0.
+   \\   /|    NVIDIA GeForce RTX 3090. Num GPUs = 1. Max memory: 23.569 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.10.0+cu128. CUDA: 8.6. CUDA Toolkit: 12.8. Triton: 3.6.0
+\        /    Bfloat16 = TRUE. FA [Xformers = 0.0.35. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: Fast downloading is enabled - ignore downloading bars which are red colored!
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<01:34,  3.59it/s]Loading weights:   1%|          | 2/339 [00:00<01:35,  3.52it/s]Loading weights:   1%|▏         | 5/339 [00:00<00:36,  9.17it/s]Loading weights:   5%|▌         | 17/339 [00:00<00:09, 33.34it/s]Loading weights:   9%|▊         | 29/339 [00:00<00:06, 51.14it/s]Loading weights:  12%|█▏        | 41/339 [00:01<00:04, 63.82it/s]Loading weights:  16%|█▌        | 53/339 [00:01<00:03, 72.72it/s]Loading weights:  18%|█▊        | 62/339 [00:01<00:03, 74.81it/s]Loading weights:  21%|██        | 71/339 [00:01<00:03, 75.50it/s]Loading weights:  23%|██▎       | 79/339 [00:01<00:03, 73.15it/s]Loading weights:  27%|██▋       | 90/339 [00:01<00:03, 77.00it/s]Loading weights:  30%|███       | 102/339 [00:01<00:02, 81.95it/s]Loading weights:  34%|███▎      | 114/339 [00:01<00:02, 85.34it/s]Loading weights:  37%|███▋      | 126/339 [00:02<00:02, 87.49it/s]Loading weights:  41%|████      | 138/339 [00:02<00:02, 89.10it/s]Loading weights:  44%|████▍     | 150/339 [00:02<00:02, 89.99it/s]Loading weights:  48%|████▊     | 162/339 [00:02<00:01, 90.85it/s]Loading weights:  51%|█████▏    | 174/339 [00:02<00:01, 91.68it/s]Loading weights:  55%|█████▍    | 186/339 [00:02<00:01, 92.21it/s]Loading weights:  58%|█████▊    | 198/339 [00:02<00:01, 92.70it/s]Loading weights:  62%|██████▏   | 210/339 [00:02<00:01, 92.90it/s]Loading weights:  65%|██████▌   | 222/339 [00:03<00:01, 93.67it/s]Loading weights:  69%|██████▉   | 234/339 [00:03<00:01, 93.90it/s]Loading weights:  73%|███████▎  | 246/339 [00:03<00:00, 94.19it/s]Loading weights:  76%|███████▌  | 258/339 [00:03<00:00, 93.94it/s]Loading weights:  80%|███████▉  | 270/339 [00:03<00:00, 93.46it/s]Loading weights:  83%|████████▎ | 282/339 [00:03<00:00, 93.24it/s]Loading weights:  87%|████████▋ | 294/339 [00:03<00:00, 94.12it/s]Loading weights:  90%|█████████ | 306/339 [00:03<00:00, 93.98it/s]Loading weights:  94%|█████████▍| 318/339 [00:04<00:00, 93.75it/s]Loading weights:  97%|█████████▋| 330/339 [00:04<00:00, 93.70it/s]Loading weights: 100%|██████████| 339/339 [00:04<00:00, 79.65it/s]
+The tokenizer you are loading from '/root/chimbisiai/output/chimbisiai-v1-merged' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+The tokenizer you are loading from '/root/chimbisiai/output/chimbisiai-v1-merged' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Both `max_new_tokens` (=512) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+/usr/local/lib/python3.10/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.10/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.10/dist-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usr/local/lib/python3.10/dist-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+Both `max_new_tokens` (=512) and `max_length`(=32768) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+=== CHIMBISIAI RESPONSE ===
+# Docker vs Kubernetes
+
+## The short answer
+
+| What it does | Docker | Kubernetes |
+|--------------|-------|------------|
+| Runs one container | Yes | No — runs *orchestrates* many containers |
+| Gives you isolation at the filesystem level | Yes | No — gives you orchestration |
+| Manages dependencies (ports, volumes) per container | Yes | No — per deployment |
+| Answers: "what runs where" | No | Yes |
+
+## The core distinction
+
+Docker solves *one* problem: containerization — it packages your app + its dependencies into a single unit that moves consistently from dev to prod.
+
+Kubernetes solves the next-order problem: running thousands of containers across dozens of machines. It answers questions like:
+
+- Which pods should run on which nodes?
+- How many replicas do I want?
+- What happens when a node dies?
+- How do I expose services externally?
+- When should I drain nodes for maintenance?
+
+## The actual overlap
+
+You need both. You write Dockerfiles (or buildspecs, or manifests), you package images with Docker. You *deploy* those images into Kubernetes — not directly onto machines.
+
+## The mental model
+
+```
+Docker: One container = one executable + one filesystem + one environment
+Kubernetes: One deployment = zero downtime upgrades, service discovery, scaling, availability guarantees
+```
+
+The confusion comes when people think "Docker is orchestration" — it isn't. It's a file format. The orchestrator consumes Docker images.
+
+=== TEST 2 (Russian) ===
+# Рекурсия: простая версия
+
+Рекурсия — это когда функция вызывает сама себя. Не волшебство, не философия, а конкретная конструкция.
+
+# Как она работает на уровне логики
+
+```
+def find_first(X):
+    if X is empty:
+        return nothing
+    else:
+        first = take_one_element_from(X)
+        answer = find_first(remaining_X)
+        if answer is found:
+            return answer
+        else:
+            return first
+```
+
+# Эта структура повторяется везде
+
+- Файл идёт в директорию -> директория — это тоже файл (список файлов)
+- Сортировка слиянием: сортируй left, сортируй right, объедини результаты
+- Дерево: проходиься по left-subtree, потом по правому, потом — вот он, root
+
+# Правило, без которого всё разваливается: **каждый вызов должен упрощать задачу**
+
+Если ты не приближаешься к базовому случаю (base case) — ты просто создаёшь цикл, который не завершится.
+
+# Правила, которые работают в 95% случаев
+
+| Работает | Нарушение |
+|----------|-----------|
+| Массив/строка/дерево | Набор элементов, каждый из которых — тоже задача меньшего размера |
+| Факториил | `n! = n * (n-1)!` |
+| Поиск в дереве | `root` — решён, остальное — два поддерева |
+| Сортировка | `sort(A) = sort(left) + root + sort(right)` |
+
+# Где она реально полезна
+
+- Структуры, где уровень вложенности — это самоопределённость (деревья, графы, AST-парсеры)
+- Тригонометрия (синус через ряд Тейлора, косинус через рекурсивное соотношение)
+- Компиляторы: вычисление типов, оптимизация, сгенерировать код из AST
+
+# Что не рекурсия
+
+- Циклы. Циклы
+
+=== INFERENCE DONE ===

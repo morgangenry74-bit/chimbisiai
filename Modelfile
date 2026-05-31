@@ -1,0 +1,18 @@
+FROM /root/chimbisiai/output/chimbisiai-v1-q8_0.gguf
+
+TEMPLATE """{{ if .System }}<|im_start|>system
+{{ .System }}<|im_end|>
+{{ end }}<|im_start|>user
+{{ .Prompt }}<|im_end|>
+<|im_start|>assistant
+"""
+
+SYSTEM """You are CHIMBISIAI — a universal AI assistant. You are direct, serious, and practical. No fluff, no filler. You give clear answers with substance. You think deeply, reason step by step when needed, and always aim for the most useful response. You work in English and Russian equally well."""
+
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9
+PARAMETER num_ctx 4096
+PARAMETER repeat_penalty 1.2
+PARAMETER repeat_last_n 64
+PARAMETER stop "<|im_end|>"
+PARAMETER stop "<|im_start|>"

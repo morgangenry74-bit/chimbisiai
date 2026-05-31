@@ -1,0 +1,217 @@
+INFO:     Started server process [147361]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:43406 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42630 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     186.246.12.43:56080 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35852 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45990 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40692 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     186.246.12.43:59590 - "POST /api/chat HTTP/1.1" 422 Unprocessable Entity
+INFO:     186.246.12.43:42738 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59676 - "POST /api/chat HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:53174 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60858 - "POST /chat HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46720 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     186.246.12.43:40732 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     109.73.204.87:38486 - "GET / HTTP/1.1" 200 OK
+INFO:     109.73.204.87:38488 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     186.246.12.43:55392 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     109.73.204.87:54078 - "GET / HTTP/1.1" 200 OK
+INFO:     109.73.204.87:0 - "GET / HTTP/1.1" 200 OK
+INFO:     109.73.204.87:0 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     37.113.59.1:0 - "GET /?token=029aede25a1367a8eeaa75bda20e3741a61ea5b9e40b68c728dbb70bd46fdcc8 HTTP/1.1" 200 OK
+INFO:     37.113.59.1:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     20.64.105.88:38324 - "GET / HTTP/1.1" 200 OK
+INFO:     5.61.209.33:0 - "GET / HTTP/1.1" 200 OK
+INFO:     37.113.59.1:61712 - "GET / HTTP/1.1" 200 OK
+INFO:     37.113.59.1:61712 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     37.113.59.1:0 - "GET / HTTP/1.1" 200 OK
+INFO:     37.113.59.1:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     5.61.209.33:0 - "GET / HTTP/1.1" 200 OK
+INFO:     5.61.209.33:0 - "GET / HTTP/1.1" 200 OK
+INFO:     5.61.209.33:0 - "GET / HTTP/1.1" 200 OK
+INFO:     5.128.192.107:0 - "GET / HTTP/1.1" 200 OK
+INFO:     5.128.192.107:0 - "GET / HTTP/1.1" 200 OK
+INFO:     5.128.192.107:0 - "GET / HTTP/1.1" 200 OK
+INFO:     5.61.209.33:0 - "GET / HTTP/1.1" 200 OK
+INFO:     5.61.209.33:0 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     5.61.209.33:0 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     176.65.139.66:0 - "GET / HTTP/1.1" 200 OK
+INFO:     5.61.209.33:0 - "GET / HTTP/1.1" 200 OK
+INFO:     20.65.194.108:0 - "GET /druid/index.html HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     198.235.24.90:64026 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     5.61.209.126:0 - "GET /SDK/webLanguage HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     5.61.209.33:0 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     137.184.122.152:0 - "GET / HTTP/1.1" 200 OK
+INFO:     137.184.122.152:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     50.116.49.221:0 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     176.65.139.66:0 - "GET / HTTP/1.1" 200 OK
+INFO:     66.228.40.100:0 - "GET / HTTP/1.1" 200 OK
+INFO:     188.132.232.81:0 - "GET / HTTP/1.1" 200 OK
+INFO:     34.78.189.165:0 - "GET / HTTP/1.1" 200 OK
+INFO:     5.61.209.33:0 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     34.22.222.83:0 - "GET / HTTP/1.1" 200 OK
+INFO:     117.175.140.121:0 - "POST /cgi-bin/../../../../../../../../../../bin/sh HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "POST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "POST /?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 405 Method Not Allowed
+INFO:     117.175.140.121:0 - "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5("hi"));?>+/tmp/index1.php HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /index.php?lang=../../../../../../../../tmp/index1 HTTP/1.1" 404 Not Found
+INFO:     117.175.140.121:0 - "GET /containers/json HTTP/1.1" 404 Not Found
+INFO:     20.42.104.13:0 - "GET /hudson HTTP/1.1" 404 Not Found
+INFO:     45.33.14.197:0 - "GET / HTTP/1.1" 200 OK
+INFO:     23.248.211.234:0 - "GET / HTTP/1.1" 200 OK
+INFO:     5.61.209.33:0 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     103.126.4.59:0 - "GET / HTTP/1.1" 200 OK
+INFO:     5.61.209.126:0 - "GET /SDK/webLanguage HTTP/1.1" 404 Not Found
+INFO:     8.216.88.155:0 - "GET / HTTP/1.1" 200 OK
+INFO:     8.216.88.155:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     163.128.42.161:0 - "GET / HTTP/1.1" 200 OK
+INFO:     188.132.232.81:0 - "GET / HTTP/1.1" 200 OK
+INFO:     4.240.90.147:0 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     5.226.140.106:7772 - "GET / HTTP/1.1" 200 OK
+INFO:     195.206.182.208:10554 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     5.61.209.33:0 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     54.159.28.238:0 - "GET / HTTP/1.1" 200 OK
+INFO:     23.248.211.234:0 - "GET / HTTP/1.1" 200 OK
+INFO:     188.132.232.81:0 - "GET / HTTP/1.1" 200 OK
+INFO:     23.248.211.234:0 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     18.118.167.101:58346 - "GET / HTTP/1.1" 200 OK
+INFO:     18.118.167.101:28680 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     5.61.209.33:0 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     69.5.169.228:0 - "GET / HTTP/1.1" 200 OK
+INFO:     89.37.172.152:0 - "GET / HTTP/1.1" 200 OK
+INFO:     188.240.59.35:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     77.83.39.197:0 - "GET /.env HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     172.110.223.175:0 - "HEAD /robots.txt HTTP/1.1" 404 Not Found
+INFO:     5.61.209.126:0 - "GET /SDK/webLanguage HTTP/1.1" 404 Not Found
+INFO:     176.65.139.66:0 - "GET / HTTP/1.1" 200 OK
+INFO:     23.248.211.234:0 - "GET / HTTP/1.1" 200 OK
+INFO:     69.12.64.60:0 - "POST /cgi-bin/../../../../../../../../../../bin/sh HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "POST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "POST /?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 405 Method Not Allowed
+INFO:     69.12.64.60:0 - "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5("hi"));?>+/tmp/index1.php HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /index.php?lang=../../../../../../../../tmp/index1 HTTP/1.1" 404 Not Found
+INFO:     69.12.64.60:0 - "GET /containers/json HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     5.61.209.33:0 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     193.176.31.228:0 - "GET / HTTP/1.1" 200 OK
+INFO:     213.166.84.61:0 - "GET / HTTP/1.1" 200 OK
+INFO:     188.240.59.41:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     195.170.172.128:0 - "GET / HTTP/1.1" 200 OK
+INFO:     195.170.172.128:0 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     195.170.172.128:0 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     195.170.172.128:0 - "GET /WuEL HTTP/1.1" 404 Not Found
+INFO:     195.170.172.128:0 - "GET /a HTTP/1.1" 404 Not Found
+INFO:     195.170.172.128:0 - "GET /download/file.ext HTTP/1.1" 404 Not Found
+INFO:     195.170.172.128:0 - "GET /SiteLoader HTTP/1.1" 404 Not Found
+INFO:     195.170.172.128:0 - "GET /mPlayer HTTP/1.1" 404 Not Found
+INFO:     195.170.172.128:0 - "POST / HTTP/1.1" 405 Method Not Allowed
+INFO:     195.170.172.128:0 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     37.113.59.1:49490 - "GET / HTTP/1.1" 200 OK
+INFO:     5.61.209.33:0 - "GET /cgi-bin/luci/%3Bstok%3D/locale HTTP/1.1" 404 Not Found
+INFO:     217.146.80.122:1874 - "GET / HTTP/1.1" 200 OK
+INFO:     31.14.254.76:10622 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     5.61.209.126:0 - "GET /SDK/webLanguage HTTP/1.1" 404 Not Found
+INFO:     180.150.6.44:0 - "GET /Security/users?auth=YWRtaW46MTEK HTTP/1.1" 404 Not Found
+INFO:     198.235.24.39:0 - "GET / HTTP/1.1" 200 OK
+INFO:     92.97.189.46:57672 - "GET / HTTP/1.0" 200 OK
+INFO:     92.97.189.46:0 - "GET / HTTP/1.1" 200 OK

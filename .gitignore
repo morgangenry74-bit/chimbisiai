@@ -1,0 +1,8 @@
+models/
+output/
+output_v2/
+output_v3/
+data/*.jsonl
+__pycache__/
+*.pyc
+*.gguf

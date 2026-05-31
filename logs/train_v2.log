@@ -1,0 +1,9 @@
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+Traceback (most recent call last):
+  File "/root/chimbisiai/scripts/train_v2.py", line 5, in <module>
+    from unsloth import FastLanguageModel
+  File "/usr/local/lib/python3.10/dist-packages/unsloth/__init__.py", line 144, in <module>
+    from ._gpu_init import *
+  File "/usr/local/lib/python3.10/dist-packages/unsloth/_gpu_init.py", line 239, in <module>
+    import triton
+ModuleNotFoundError: No module named 'triton'

@@ -1,0 +1,1425 @@
+=== CHIMBISIAI v2 Quality Generator ===
+Target: 460 samples
+Response model: claude-opus-4.6
+Output: /root/chimbisiai/data/train_worker_2.jsonl
+
+Existing: 0
+
+--- reasoning_ru (ru) ---
+  Prompts for: разбор логической задачи с пошаговым рассуждением
+  Got 5 prompts
+    [1/460] OK (2165 chars): Помоги разобраться с задачкой: на столе лежат 12 м...
+    [2/460] OK (2085 chars): Вот классическая задача: пять пиратов делят 100 зо...
+    [3/460] OK (1662 chars): Задачка из собеседования в Google: у тебя есть два...
+    [4/460] OK (1360 chars): Есть такая задача, которая меня бесит: три двери, ...
+    [5/460] OK (1892 chars): Сложная логическая задача: 100 заключённых, каждом...
+  Prompts for: анализ бизнес-решения с плюсами и минусами
+  Got 5 prompts
+    [6/460] OK (2523 chars): Мы небольшая кофейня в спальном районе Москвы, дум...
+  Claude error (attempt 1): The read operation timed out
+    [7/460] OK (3063 chars): Наш стартап (EdTech, 12 человек) получил два предл...
+    [8/460] OK (2931 chars): Я владелец производства мебели, 50 сотрудников. Хо...
+    [9/460] OK (2667 chars): Слушай, у меня спорная ситуация. Я руковожу отдело...
+    [10/460] OK (4609 chars): Рассматриваем решение закрыть убыточный B2C-сегмен...
+  Prompts for: объяснение сложной технической концепции простым языком
+  Got 5 prompts
+    [11/460] OK (1716 chars): Объясни мне как пятилетнему ребёнку, что такое ква...
+    [12/460] OK (2809 chars): Я фронтендер, пишу на React уже 3 года, но до сих ...
+    [13/460] OK (2389 chars): Мне кажется, что блокчейн — это просто распиаренна...
+  Claude error (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude error (attempt 2): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude error (attempt 3): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+    SKIP (empty): Я архитектор с 15-летним опытом, но мне ...
+  Claude error (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude error (attempt 2): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude error (attempt 3): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+    SKIP (empty): Объясни разницу между компиляцией и инте...
+  Prompts for: критический разбор чужого аргумента
+  Claude-prompts error (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 2): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 3): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Prompts for: решение дилеммы с обоснованием выбора
+  Claude-prompts error (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 2): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 3): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Prompts for: анализ причин провала проекта/стартапа
+  Claude-prompts error (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 2): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 3): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Prompts for: сравнение двух подходов к решению проблемы
+  Claude-prompts error (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 2): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 3): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+
+--- creative_en (en) ---
+  Prompts for: writing compelling product copy
+  Claude-prompts error (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 2): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 3): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Prompts for: crafting a pitch deck narrative
+  Claude-prompts error (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 2): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 3): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Prompts for: developing a content marketing strategy
+  Claude-prompts error (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 2): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 3): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Prompts for: creating a brand positioning statement
+  Claude-prompts error (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 2): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 3): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Prompts for: writing technical documentation that people read
+  Claude-prompts error (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 2): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 3): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Prompts for: email sequence for user onboarding
+  Claude-prompts error (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 2): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 3): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Prompts for: storytelling for investor presentations
+  Claude-prompts error (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 2): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 3): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+
+--- creative_ru (ru) ---
+  Prompts for: написание продающего текста для лендинга
+  Claude-prompts error (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 2): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 3): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Prompts for: создание контент-плана для Telegram канала
+  Claude-prompts error (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 2): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 3): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Prompts for: разработка уникального торгового предложения
+  Claude-prompts error (attempt 1): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Claude-prompts error (attempt 2): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)
+  Got 5 prompts
+    [14/460] OK (1998 chars): Я открываю кофейню в спальном районе Москвы, где у...
+    [15/460] OK (2359 chars): Мне кажется, что УТП — это устаревшая маркетингова...
+    [16/460] OK (2846 chars): Мы — B2B SaaS-платформа для автоматизации документ...
+    [17/460] OK (1875 chars): У меня интернет-магазин женской одежды, сегмент ср...
+    [18/460] OK (2184 chars): Объясни разницу между УТП, позиционированием и сло...
+  Prompts for: написание цепляющего поста для соцсетей
+  Got 5 prompts
+    [19/460] OK (899 chars): Напиши мне пост для инстаграма про открытие моей к...
+    [20/460] OK (2376 chars): У меня телеграм-канал про личные финансы, 2к подпи...
+    [21/460] OK (1577 chars): Слушай, я продаю handmade свечи через ВКонтакте и ...
+    [22/460] OK (1699 chars): Мне нужен LinkedIn-пост на русском языке о том, ка...
+    [23/460] OK (1888 chars): Можешь написать агрессивный продающий пост для мое...
+  Prompts for: создание email-рассылки с высокой конверсией
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: разработка названия и слогана для бренда
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Got 5 prompts
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    [24/460] OK (1427 chars): Мы запускаем сервис доставки фермерских продуктов ...
+    [25/460] OK (1767 chars): Слушай, у меня кофейня в спальном районе Питера, н...
+    [26/460] OK (944 chars): Я считаю, что хороший слоган должен быть провокаци...
+    [27/460] OK (5578 chars): Объясни пошагово, как профессиональные неймеры раз...
+    [28/460] OK (2045 chars): У нас B2B-стартап в сфере AI-аналитики для ритейла...
+  Prompts for: сторителлинг для презентации продукта
+  Got 5 prompts
+    [29/460] OK (2066 chars): Мне через два дня питчить инвесторам наш B2B SaaS ...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    SKIP (empty): Все говорят «расскажи историю клиента» н...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    SKIP (empty): Я продакт-менеджер в финтехе. Готовлю пр...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    [30/460] OK (1563 chars): Честно говоря, мне кажется что весь этот сторителл...
+    [31/460] OK (2245 chars): У нас демо-день в акселераторе, 12 стартапов подря...
+
+--- analysis_ru (ru) ---
+  Prompts for: SWOT анализ бизнес-идеи
+  Claude-prompts error (attempt 1): The read operation timed out
+  Got 5 prompts
+    [32/460] OK (2838 chars): Сделай SWOT анализ для моей идеи — открыть барберш...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    [33/460] OK (2371 chars): Мне кажется, SWOT анализ — это устаревшая фигня из...
+    [34/460] OK (2799 chars): Я планирую запустить сервис доставки фермерских пр...
+    [35/460] OK (2398 chars): У меня есть SWOT анализ для моего интернет-магазин...
+    [36/460] OK (2315 chars): Делаю SWOT для франшизы кофейни Cofix в городе с н...
+  Prompts for: разбор маркетинговой стратегии конкурента
+  Got 5 prompts
+    [37/460] OK (2945 chars): Слушай, я заметил что наш конкурент — сеть кофеен ...
+    [38/460] OK (4637 chars): Мне нужно подготовить презентацию для директора. К...
+  Claude error (attempt 1): The read operation timed out
+    [39/460] OK (1957 chars): А это вообще этично — парсить рекламные кабинеты к...
+    [40/460] OK (2260 chars): Конкурент (интернет-магазин электроники, средний ч...
+    [41/460] OK (4669 chars): Мы работаем в нише доставки здорового питания в Мо...
+  Prompts for: оценка рисков нового проекта
+  Got 5 prompts
+    [42/460] OK (2535 chars): Мы запускаем маркетплейс для фрилансеров в СНГ, ко...
+    [43/460] OK (1451 chars): Слушай, у меня спор с партнёром. Он считает что оц...
+    [44/460] OK (5234 chars): Мне нужно подготовить раздел по рискам для инвести...
+    [45/460] OK (1989 chars): А правда что большинство стартапов умирают не из-з...
+    [46/460] OK (4890 chars): Мы делаем миграцию монолита на микросервисы, парал...
+  Prompts for: анализ unit-экономики
+  Got 5 prompts
+  Claude error (attempt 1): The read operation timed out
+    [47/460] OK (2598 chars): У меня SaaS-продукт, подписка стоит 990 руб/мес, C...
+    [48/460] OK (3151 chars): Объясни пошагово, как правильно считать CAC для ма...
+    [49/460] OK (1879 chars): Я слышал мнение, что unit-экономика — это по сути ...
+    [50/460] OK (2625 chars): У нас мобильное приложение, фримиум-модель. Конвер...
+    [51/460] OK (3109 chars): Мне нужно подготовить слайд для инвесторов с юнит-...
+  Prompts for: сравнение каналов привлечения клиентов
+  Got 5 prompts
+    [52/460] OK (2158 chars): Мы B2B SaaS стартап с ARR $200K, продаём CRM для м...
+    [53/460] OK (2680 chars): Все говорят что SEO — это долгосрочная инвестиция ...
+    [54/460] OK (2818 chars): Помоги пошагово разобраться: у меня интернет-магаз...
+    [55/460] OK (3556 chars): Сравни для меня холодные email-рассылки vs LinkedI...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    SKIP (empty): У нас спор с маркетинг-директором. Он ут...
+  Prompts for: аудит текущих бизнес-процессов
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: прогноз развития рынка/ниши
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+--- tech_ru (ru) ---
+  Prompts for: архитектура Telegram бота на Python
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: настройка VPS сервера для продакшена
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: работа с API и интеграции
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: оптимизация базы данных PostgreSQL
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: деплой и CI/CD для небольших проектов
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): The read operation timed out
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: парсинг данных и автоматизация
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: выбор стека технологий для проекта
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+--- deep_thinking_en (en) ---
+  Prompts for: first principles thinking applied to a problem
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: mental models for better decision making
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: systems thinking and feedback loops
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: probabilistic reasoning under uncertainty
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: strategic thinking and game theory in business
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: cognitive biases and how to avoid them
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: framework for prioritization and focus
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+--- reasoning_en (en) ---
+  Prompts for: step-by-step analysis of a complex problem
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: evaluating a business decision with tradeoffs
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: explaining a technical concept with analogies
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: finding flaws in an argument
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): The read operation timed out
+  Claude-prompts error (attempt 3): Server error '502 Bad Gateway' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+  Prompts for: resolving a dilemma with clear reasoning
+  Claude-prompts error (attempt 1): Server error '502 Bad Gateway' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+  Claude-prompts error (attempt 2): Server error '502 Bad Gateway' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: post-mortem analysis of a failed project
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: comparing two approaches with recommendation
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+--- practical_ru (ru) ---
+  Prompts for: конкретный план запуска бизнеса с бюджетом
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: пошаговая автоматизация рутинных процессов
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: стратегия выхода на рынок для нового продукта
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: оптимизация расходов малого бизнеса
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: построение воронки продаж
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: найм и управление командой на старте
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: монетизация контента и личного бренда
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+--- coding_en (en) ---
+  Prompts for: designing a scalable system architecture
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: debugging a tricky concurrency issue
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: writing clean Python with proper error handling
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: API design best practices with examples
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: database schema design for a real app
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: performance optimization with profiling
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: code review with constructive feedback
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+--- analysis_en (en) ---
+  Prompts for: technology stack comparison for a startup
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: go-to-market strategy analysis
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: risk assessment for a new venture
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: competitive analysis framework
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: pricing strategy evaluation
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: build vs buy decision analysis
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: market sizing and TAM estimation
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+--- analysis_ru (ru) ---
+  Prompts for: SWOT анализ бизнес-идеи
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: разбор маркетинговой стратегии конкурента
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: оценка рисков нового проекта
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: анализ unit-экономики
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: сравнение каналов привлечения клиентов
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): The read operation timed out
+  Got 5 prompts
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    [56/460] OK (1977 chars): Мы B2B SaaS стартап с ARR $200K, продаём CRM для м...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    [57/460] OK (2313 chars): Все говорят что SEO — это долгосрочная инвестиция ...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    [58/460] OK (2769 chars): Помоги пошагово разобраться: у меня интернет-магаз...
+    [59/460] OK (2420 chars): Сравни холодные email-рассылки и cold calling для ...
+    [60/460] OK (2736 chars): У нас маркетплейсы (Ozon, WB) дают 70% продаж, а с...
+  Prompts for: аудит текущих бизнес-процессов
+  Got 5 prompts
+    [61/460] OK (2551 chars): У нас в компании 12 человек, занимаемся оптовой пр...
+    [62/460] OK (3094 chars): Мы внедрили CRM полгода назад, но менеджеры до сих...
+    [63/460] OK (2235 chars): Слушай, а не кажется ли тебе, что весь этот аудит ...
+    [64/460] OK (3667 chars): Я финансовый директор производственной компании (ш...
+    [65/460] OK (2458 chars): Провели аудит процесса обработки заявок в нашем се...
+  Prompts for: прогноз развития рынка/ниши
+  Got 5 prompts
+    [66/460] OK (2302 chars): Я запускаю сервис доставки готовой еды для собак в...
+    [67/460] OK (2537 chars): Все говорят что AI убьёт фриланс-копирайтинг за 2 ...
+    [68/460] OK (4147 chars): Сделай мне пошаговый анализ перспектив рынка верти...
+    [69/460] OK (2183 chars): Слушай, я вижу что рынок онлайн-образования в РФ у...
+    [70/460] OK (2220 chars): Какова вероятность того, что рынок электросамокато...
+
+--- analysis_en (en) ---
+  Prompts for: technology stack comparison for a startup
+  Got 5 prompts
+    [71/460] OK (1910 chars): We're a 3-person team building a B2B SaaS for cons...
+    [72/460] OK (2337 chars): I keep seeing people recommend Go for backend micr...
+    [73/460] OK (5060 chars): We're choosing between Supabase and Firebase for o...
+    [74/460] OK (3080 chars): Hot take request: my CTO wants us to go all-in on ...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    SKIP (empty): We're rebuilding our 2-year-old monolith...
+  Prompts for: go-to-market strategy analysis
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): The read operation timed out
+  Prompts for: risk assessment for a new venture
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Got 5 prompts
+    [75/460] OK (3621 chars): I'm thinking about opening a specialty coffee roas...
+    [76/460] OK (2934 chars): My co-founder and I are launching a B2B SaaS platf...
+    [77/460] OK (4349 chars): Can you walk me through how to build a quantitativ...
+    [78/460] OK (4339 chars): I'm evaluating whether to invest $50k as an angel ...
+    [79/460] OK (3238 chars): Hot take request: is the whole lean startup method...
+  Prompts for: competitive analysis framework
+  Got 5 prompts
+    [80/460] OK (2115 chars): I'm a product manager at a B2B SaaS startup doing ...
+    [81/460] OK (4770 chars): Can you help me build a competitive analysis frame...
+    [82/460] OK (3620 chars): I've seen people use Porter's Five Forces, SWOT, a...
+    [83/460] OK (5793 chars): I'm doing a competitive analysis presentation for ...
+    [84/460] OK (6691 chars): We just hired a competitive intelligence analyst a...
+  Prompts for: pricing strategy evaluation
+  Got 5 prompts
+    [85/460] OK (2359 chars): We're a B2B SaaS company selling project managemen...
+    [86/460] OK (2120 chars): I run a small bakery and I've been pricing my cust...
+    [87/460] OK (3145 chars): Can you walk me through how to calculate the optim...
+    [88/460] OK (3689 chars): My company sells industrial sensors to manufacture...
+    [89/460] OK (2396 chars): I've read that psychological pricing like $9.99 vs...
+  Prompts for: build vs buy decision analysis
+  Got 5 prompts
+    [90/460] OK (3444 chars): We're a 12-person startup burning about $80k/month...
+    [91/460] OK (2419 chars): My team spent 9 months building an internal featur...
+    [92/460] OK (5913 chars): I'm evaluating whether to build a custom LLM orche...
+    [93/460] OK (2350 chars): Hot take request: I've seen multiple blog posts fr...
+    [94/460] OK (3116 chars): We need to decide by Friday whether to buy Salesfo...
+  Prompts for: market sizing and TAM estimation
+  Got 5 prompts
+    [95/460] OK (4270 chars): I'm trying to estimate the TAM for a B2B SaaS tool...
+    [96/460] OK (2924 chars): Be honest with me — isn't TAM basically a made-up ...
+    [97/460] OK (4650 chars): I need help sizing the market for electric vehicle...
+    [98/460] OK (4184 chars): What's the difference between TAM, SAM, and SOM in...
+    [99/460] OK (5265 chars): I'm an analyst at a PE firm evaluating an acquisit...
+
+--- creative_en (en) ---
+  Prompts for: writing compelling product copy
+  Got 5 prompts
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    SKIP (empty): I'm writing product copy for a new ergon...
+    [100/460] OK (2159 chars): I've heard that features-vs-benefits is the golden...
+    [101/460] OK (3221 chars): I run a small skincare brand and I need to write a...
+    [102/460] OK (2314 chars): I'm a copywriter at an agency and my client sells ...
+    [103/460] OK (4022 chars): I'm launching a Kickstarter for a portable espress...
+  Prompts for: crafting a pitch deck narrative
+  Got 5 prompts
+    [104/460] OK (2402 chars): I'm pitching a B2B SaaS tool for mid-market HR tea...
+    [105/460] OK (1825 chars): Hot take request: I've seen advice saying you shou...
+    [106/460] OK (3933 chars): I'm a first-time founder with a consumer fintech a...
+    [107/460] OK (2660 chars): We're a climate tech hardware startup and our deck...
+    [108/460] OK (2815 chars): I keep getting feedback from investors that my dec...
+  Prompts for: developing a content marketing strategy
+  Got 5 prompts
+    [109/460] OK (2302 chars): I'm a solo founder running a B2B SaaS tool for sma...
+    [110/460] OK (3885 chars): Our content team publishes 3 blog posts a week and...
+    [111/460] OK (1962 chars): I've heard people say that content marketing is ba...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    SKIP (empty): We're launching a new fintech product ai...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    [112/460] OK (3522 chars): My CMO wants me to prove ROI on our content market...
+  Prompts for: creating a brand positioning statement
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Got 5 prompts
+    [113/460] OK (3705 chars): I'm launching a direct-to-consumer oat milk brand ...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    SKIP (empty): My CEO keeps insisting our brand positio...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    [114/460] OK (2401 chars): We're a B2B cybersecurity firm pivoting from servi...
+    [115/460] OK (1808 chars): I've read that a brand positioning statement shoul...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    SKIP (empty): I'm working on positioning for a new fin...
+  Prompts for: writing technical documentation that people read
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Got 5 prompts
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    [116/460] OK (2382 chars): I'm a senior backend engineer and I just inherited...
+    [117/460] OK (6433 chars): I need to write an API reference for our new payme...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    [118/460] OK (1858 chars): Hot take request: I've seen a lot of advice saying...
+    [119/460] OK (2755 chars): I'm writing a migration guide for our users moving...
+    [120/460] OK (2933 chars): Our startup has 4 engineers and zero technical wri...
+  Prompts for: email sequence for user onboarding
+  Got 5 prompts
+    [121/460] OK (5190 chars): I'm building a SaaS project management tool and ne...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    SKIP (empty): We currently send a single welcome email...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    [122/460] OK (2384 chars): I've seen conflicting advice about whether onboard...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    SKIP (empty): Can you help me figure out where users a...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    [123/460] OK (3762 chars): I need to set up a branching onboarding email sequ...
+  Prompts for: storytelling for investor presentations
+  Got 5 prompts
+    [124/460] OK (2938 chars): I'm pitching my Series A next week to a room of 6 ...
+    [125/460] OK (2263 chars): I've seen conflicting advice — some people say you...
+    [126/460] OK (2782 chars): Can you help me restructure my pitch narrative? He...
+    [127/460] OK (2371 chars): I'm a technical founder and honestly I think the w...
+    [128/460] OK (2597 chars): I need to craft the origin story portion of my pit...
+
+--- practical_ru (ru) ---
+  Prompts for: конкретный план запуска бизнеса с бюджетом
+  Got 5 prompts
+    [129/460] OK (3862 chars): У меня есть 500 тысяч рублей и я хочу открыть кофе...
+    [130/460] OK (3119 chars): Бюджет 150к, хочу запустить дропшиппинг-магазин од...
+    [131/460] OK (3234 chars): Мне 19 лет, накопил 2 миллиона рублей на крипте. Х...
+    [132/460] OK (3590 chars): Слушай, у меня 3 млн и я выбираю между франшизой Д...
+    [133/460] OK (4367 chars): Бюджет ровно 50 тысяч рублей. Не смейся. Мне нужен...
+  Prompts for: пошаговая автоматизация рутинных процессов
+  Got 5 prompts
+    [134/460] OK (5127 chars): Слушай, у меня каждый понедельник одно и то же: ск...
+    [135/460] OK (2989 chars): Мне нужно автоматизировать процесс онбординга новы...
+    [136/460] OK (2275 chars): Честно скажи — вся эта автоматизация рутины через ...
+    [137/460] OK (4404 chars): У нас в бухгалтерии есть процесс: каждый день прих...
+    [138/460] OK (6577 chars): Я DevOps и хочу автоматизировать реагирование на т...
+  Prompts for: стратегия выхода на рынок для нового продукта
+  Got 5 prompts
+    [139/460] OK (3197 chars): Мы запускаем B2B SaaS для автоматизации документоо...
+    [140/460] OK (2280 chars): Честно скажи — имеет ли вообще смысл выходить на р...
+  Claude error (attempt 1): The read operation timed out
+    [141/460] OK (3664 chars): Помоги пошагово разобраться: мы разработали мобиль...
+    [142/460] OK (3370 chars): У нас deeptech стартап — разработали новый тип сен...
+    [143/460] OK (2491 chars): Все говорят что нужно делать CustDev перед запуско...
+  Prompts for: оптимизация расходов малого бизнеса
+  Got 5 prompts
+    [144/460] OK (1808 chars): У меня кофейня в спальном районе, аренда 120 тысяч...
+    [145/460] OK (2687 chars): Мы маленькая веб-студия, 8 человек. Половина коман...
+    [146/460] OK (2561 chars): Слушай, а правда что можно законно платить сотрудн...
+    [147/460] OK (2254 chars): Я открыл небольшой интернет-магазин детской одежды...
+    [148/460] OK (2356 chars): Все эти советы про оптимизацию расходов — сократи ...
+  Prompts for: построение воронки продаж
+  Got 5 prompts
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    [149/460] OK (4156 chars): У меня интернет-магазин детской одежды, средний че...
+    [150/460] OK (2281 chars): Все эти воронки продаж — это же просто красивая уп...
+    [151/460] OK (5814 chars): Я запускаю B2B SaaS-продукт для автоматизации скла...
+    [152/460] OK (2055 chars): Чем отличается воронка продаж от CJM? Я вижу, что ...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    SKIP (empty): У нас уже есть воронка: таргет ВК → ленд...
+  Prompts for: найм и управление командой на старте
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Got 5 prompts
+  Claude error (attempt 1): The read operation timed out
+    [153/460] OK (1743 chars): Мы запускаем fintech-стартап втроём, все технари. ...
+    [154/460] OK (1530 chars): Я нанял первого разработчика в свой стартап, дал е...
+    [155/460] OK (3338 chars): Составь мне пошаговый план найма первых 5 сотрудни...
+    [156/460] OK (2367 chars): Говорят, что на старте нужно нанимать только A-pla...
+    [157/460] OK (2615 chars): У меня в команде из 4 человек один кофаундер перес...
+  Prompts for: монетизация контента и личного бренда
+  Got 5 prompts
+    [158/460] OK (1970 chars): Я веду телеграм-канал про личные финансы, 12 тысяч...
+    [159/460] OK (2288 chars): Слушай, давай честно — вся эта история с личным бр...
+    [160/460] OK (3789 chars): Я практикующий психолог, 8 лет опыта, веду блог в ...
+    [161/460] OK (3162 chars): У меня mass-market бренд одежды, я вложил 2 млн ру...
+    [162/460] OK (3921 chars): Я пишу авторскую рассылку на Substack про геополит...
+
+--- deep_thinking_en (en) ---
+  Prompts for: first principles thinking applied to a problem
+  Got 5 prompts
+    [163/460] OK (4073 chars): I'm trying to figure out why our SaaS startup's cu...
+    [164/460] OK (4525 chars): My team is debating whether to build our own authe...
+    [165/460] OK (2190 chars): I've heard Elon Musk talk about first principles t...
+    [166/460] OK (4976 chars): I'm a product manager and our e-commerce platform ...
+    [167/460] OK (5129 chars): I'm writing a paper on urban housing affordability...
+  Prompts for: mental models for better decision making
+  Got 5 prompts
+    [168/460] OK (2063 chars): I keep making impulsive purchases that I regret la...
+    [169/460] OK (2490 chars): I'm a product manager and my team is debating whet...
+    [170/460] OK (2664 chars): Honestly, I think most mental models are just fanc...
+    [171/460] OK (4315 chars): I'm a senior engineer trying to decide whether to ...
+    [172/460] OK (2588 chars): I recently read about Munger's latticework of ment...
+  Prompts for: systems thinking and feedback loops
+  Got 5 prompts
+    [173/460] OK (3635 chars): I'm a product manager at a mid-size SaaS company a...
+    [174/460] OK (2591 chars): I've been reading Donella Meadows' 'Thinking in Sy...
+    [175/460] OK (3617 chars): I'm teaching a high school environmental science c...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    SKIP (empty): Our engineering team adopted microservic...
+  Claude error (attempt 1): The read operation timed out
+    [176/460] OK (2455 chars): Hot take I want to push back on: people in the sys...
+  Prompts for: probabilistic reasoning under uncertainty
+  Got 5 prompts
+    [177/460] OK (2237 chars): I'm working on a medical diagnosis system and I ne...
+    [178/460] OK (2316 chars): Here's something that bugs me: in practice, do you...
+    [179/460] OK (3782 chars): I'm building a spam filter and I'm stuck on how to...
+    [180/460] OK (1789 chars): Can you explain the Monty Hall problem to me like ...
+    [181/460] OK (4688 chars): I'm a quantitative analyst and I'm debating with m...
+  Prompts for: strategic thinking and game theory in business
+  Got 5 prompts
+    [182/460] OK (2839 chars): I'm running a small SaaS company and my biggest co...
+    [183/460] OK (3467 chars): Can you walk me through the prisoner's dilemma as ...
+    [184/460] OK (2380 chars): Hot take request: I've seen a lot of business stra...
+    [185/460] OK (2543 chars): I'm preparing for a salary negotiation next week. ...
+    [186/460] OK (3840 chars): We're in a three-player market — us, a legacy ente...
+  Prompts for: cognitive biases and how to avoid them
+  Got 5 prompts
+    [187/460] OK (2576 chars): I just realized I've been falling for confirmation...
+    [188/460] OK (3320 chars): My team lead insists that the sunk cost fallacy is...
+    [189/460] OK (3748 chars): I'm writing a research paper on debiasing techniqu...
+    [190/460] OK (5854 chars): Can you walk me step by step through how the ancho...
+    [191/460] OK (2667 chars): I've heard people say that cognitive biases are ac...
+  Prompts for: framework for prioritization and focus
+  Claude-prompts error (attempt 1): The read operation timed out
+  Got 5 prompts
+    [192/460] OK (2308 chars): I'm a senior PM at a mid-size SaaS company and my ...
+    [193/460] OK (2020 chars): Hot take request: I've seen people swear by the Ei...
+    [194/460] OK (3077 chars): I'm a solo founder building a developer tool. Ever...
+    [195/460] OK (2972 chars): My engineering team uses weighted shortest job fir...
+    [196/460] OK (4049 chars): I just got promoted to director level and now I'm ...
+
+--- creative_ru (ru) ---
+  Prompts for: написание продающего текста для лендинга
+  Got 5 prompts
+    [197/460] OK (2391 chars): Напиши продающий текст для лендинга моего онлайн-к...
+    [198/460] OK (1923 chars): Я слышал, что все эти продающие формулы типа AIDA ...
+    [199/460] OK (4887 chars): У меня SaaS-продукт для автоматизации email-рассыл...
+    [200/460] OK (1395 chars): Мне нужен hero-секшн для лендинга доставки здорово...
+  Claude error (attempt 1): The read operation timed out
+    [201/460] OK (2775 chars): Объясни как правильно написать блок с социальными ...
+  Prompts for: создание контент-плана для Telegram канала
+  Got 5 prompts
+    [202/460] OK (4061 chars): Мне нужен контент-план для Telegram канала про инв...
+    [203/460] OK (1592 chars): Слушай, я веду канал про кулинарию, 3к подписчиков...
+    [204/460] OK (2879 chars): У меня канал про психологию отношений, 12 тысяч по...
+    [205/460] OK (2964 chars): Объясни пошагово, как построить контент-план для B...
+    [206/460] OK (2950 chars): Я копирайтер, веду 4 клиентских Telegram канала од...
+  Prompts for: разработка уникального торгового предложения
+  Got 5 prompts
+    [207/460] OK (2076 chars): Я открываю кофейню в спальном районе Москвы, где у...
+    [208/460] OK (1702 chars): Честно скажи — УТП это вообще работающая концепция...
+    [209/460] OK (3847 chars): У нас B2B SaaS для автоматизации документооборота ...
+    [210/460] OK (1918 chars): Мне нужно УТП для интернет-магазина женской одежды...
+    [211/460] OK (2242 chars): Разрабатываю УТП для премиального фитнес-клуба в Е...
+  Prompts for: написание цепляющего поста для соцсетей
+  Got 5 prompts
+    [212/460] OK (869 chars): Напиши мне пост для инстаграма про открытие моей к...
+    [213/460] OK (2767 chars): У меня телеграм-канал про личные финансы, 2к подпи...
+    [214/460] OK (2014 chars): Слушай, я продаю handmade свечи через ВКонтакте и ...
+  Claude error (attempt 1): The read operation timed out
+    [215/460] OK (2302 chars): Мне нужен LinkedIn-пост на русском языке о том, ка...
+    [216/460] OK (3360 chars): Я SMM-щик и клиент просит «вирусный пост» для свое...
+  Prompts for: создание email-рассылки с высокой конверсией
+  Got 5 prompts
+    [217/460] OK (3277 chars): У меня интернет-магазин детской одежды, база 12 ты...
+    [218/460] OK (1821 chars): Все говорят что персонализация повышает конверсию,...
+    [219/460] OK (4842 chars): Я запускаю SaaS для бухгалтеров, триал 14 дней. Мн...
+    [220/460] OK (1358 chars): Я слышал что лучшие рассылки сейчас делаются через...
+    [221/460] OK (2800 chars): Помоги разобраться с A/B тестированием в email. У ...
+  Prompts for: разработка названия и слогана для бренда
+  Got 5 prompts
+    [222/460] OK (1427 chars): Мы запускаем сервис доставки фермерских продуктов ...
+    [223/460] OK (1660 chars): Слушай, у меня кофейня в спальном районе Питера, н...
+  Claude error (attempt 1): The read operation timed out
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    SKIP (empty): Я считаю, что хороший слоган должен быть...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    SKIP (empty): Объясни пошагово, как профессиональные н...
+  Claude error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+    SKIP (empty): У нас B2B-стартап в сфере AI-аналитики д...
+  Prompts for: сторителлинг для презентации продукта
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+--- coding_en (en) ---
+  Prompts for: designing a scalable system architecture
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: debugging a tricky concurrency issue
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: writing clean Python with proper error handling
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: API design best practices with examples
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: database schema design for a real app
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: performance optimization with profiling
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: code review with constructive feedback
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+--- reasoning_en (en) ---
+  Prompts for: step-by-step analysis of a complex problem
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: evaluating a business decision with tradeoffs
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: explaining a technical concept with analogies
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: finding flaws in an argument
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: resolving a dilemma with clear reasoning
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: post-mortem analysis of a failed project
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: comparing two approaches with recommendation
+  Claude-prompts error (attempt 1): The read operation timed out
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+--- tech_ru (ru) ---
+  Prompts for: архитектура Telegram бота на Python
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: настройка VPS сервера для продакшена
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: работа с API и интеграции
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: оптимизация базы данных PostgreSQL
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: деплой и CI/CD для небольших проектов
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: парсинг данных и автоматизация
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: выбор стека технологий для проекта
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+--- reasoning_ru (ru) ---
+  Prompts for: разбор логической задачи с пошаговым рассуждением
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: анализ бизнес-решения с плюсами и минусами
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: объяснение сложной технической концепции простым языком
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: критический разбор чужого аргумента
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: решение дилеммы с обоснованием выбора
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: анализ причин провала проекта/стартапа
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): The read operation timed out
+  Prompts for: сравнение двух подходов к решению проблемы
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+--- reasoning_en (en) ---
+  Prompts for: step-by-step analysis of a complex problem
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: evaluating a business decision with tradeoffs
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: explaining a technical concept with analogies
+  Claude-prompts error (attempt 1): The read operation timed out
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: finding flaws in an argument
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: resolving a dilemma with clear reasoning
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: post-mortem analysis of a failed project
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: comparing two approaches with recommendation
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+--- practical_ru (ru) ---
+  Prompts for: конкретный план запуска бизнеса с бюджетом
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: пошаговая автоматизация рутинных процессов
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: стратегия выхода на рынок для нового продукта
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 3): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Prompts for: оптимизация расходов малого бизнеса
+  Claude-prompts error (attempt 1): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Claude-prompts error (attempt 2): Client error '429 Too Many Requests' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+  Got 5 prompts
+  Claude error (attempt 1): The read operation timed out
+    [224/460] OK (1808 chars): У меня кофейня в спальном районе, аренда 120 тысяч...
+    [225/460] OK (2694 chars): Мы маленькая веб-студия, 8 человек. Половина коман...
+    [226/460] OK (2594 chars): Слушай, а правда что можно законно платить сотрудн...
+    [227/460] OK (2254 chars): Я открыл небольшой интернет-магазин детской одежды...
+    [228/460] OK (2170 chars): Все эти советы про оптимизацию расходов — сократи ...
+  Prompts for: построение воронки продаж
+  Got 5 prompts
+    [229/460] OK (4622 chars): У меня интернет-магазин детской одежды, средний че...
+    [230/460] OK (2281 chars): Все эти воронки продаж — это же просто красивая уп...
+    [231/460] OK (4002 chars): Я запускаю B2B SaaS-продукт для автоматизации доку...
+    [232/460] OK (1430 chars): Объясни простым языком разницу между воронкой прод...
+    [233/460] OK (3481 chars): У нас фитнес-студия в городе на 300 тысяч населени...
+  Prompts for: найм и управление командой на старте
+  Got 5 prompts
+    [234/460] OK (1755 chars): Мы запускаем fintech-стартап втроём, все технари. ...
+    [235/460] OK (1631 chars): Я нанял первого разработчика в свой стартап, дал е...
+    [236/460] OK (3702 chars): Составь мне пошаговый план найма первых 5 сотрудни...
+    [237/460] OK (2375 chars): Говорят, что на старте нужно нанимать только A-pla...
+    [238/460] OK (3023 chars): У меня в команде из 4 человек один кофаундер перес...
+  Prompts for: монетизация контента и личного бренда
+  Got 5 prompts
+    [239/460] OK (1467 chars): Я веду телеграм-канал про личные финансы, 12 тысяч...
+    [240/460] OK (2010 chars): Слушай, давай честно — вся эта история с личным бр...
+    [241/460] OK (2771 chars): Я фуд-блогер, снимаю рилсы с рецептами, 85к подпис...
+  Claude error (attempt 1): The read operation timed out
+    [242/460] OK (2318 chars): У меня mass-market аудитория — канал с мемами и юм...
+    [243/460] OK (2286 chars): Я запустила платный курс по акварели, вложила 4 ме...
+
+--- deep_thinking_en (en) ---
+  Prompts for: first principles thinking applied to a problem
+  Got 5 prompts
+    [244/460] OK (3961 chars): I'm trying to figure out why our SaaS startup's cu...
+    [245/460] OK (4000 chars): My team is debating whether to build our own authe...
+    [246/460] OK (2404 chars): I've heard Elon Musk talk about first principles t...
+    [247/460] OK (5733 chars): I'm a high school physics teacher and I want to de...
+    [248/460] OK (4313 chars): We're a mid-size logistics company and our warehou...
+  Prompts for: mental models for better decision making
+  Got 5 prompts
+    [249/460] OK (2287 chars): I keep making impulsive purchases that I regret la...
+    [250/460] OK (2539 chars): I'm a product manager and my team is debating whet...
+    [251/460] OK (1615 chars): Hot take: I think 'inversion thinking' (Charlie Mu...
+    [252/460] OK (4304 chars): I'm a senior engineer trying to decide whether to ...
+    [253/460] OK (3175 chars): I recently read about the 'circle of competence' m...
+  Prompts for: systems thinking and feedback loops
+  Got 5 prompts
+    [254/460] OK (3707 chars): I'm a product manager at a mid-size SaaS company a...
+    [255/460] OK (2948 chars): I've been reading Donella Meadows' 'Thinking in Sy...
+    [256/460] OK (2266 chars): Hot take request: I've seen a lot of people in the...
+    [257/460] OK (4324 chars): I'm modeling urban traffic congestion for a city p...
+    [258/460] OK (4687 chars): I'm a senior engineer trying to explain to leaders...
+  Prompts for: probabilistic reasoning under uncertainty
+  Got 5 prompts
+    [259/460] OK (2212 chars): I'm working on a medical diagnosis system and I ne...
+    [260/460] OK (2415 chars): Here's something that bugs me: in practice, do you...
+    [261/460] OK (3692 chars): I'm building a spam filter and I'm stuck on how to...
+    [262/460] OK (1715 chars): Can you explain the Monty Hall problem to me like ...
+    [263/460] OK (4331 chars): I'm reading a paper that uses a Dirichlet-Multinom...
+  Prompts for: strategic thinking and game theory in business
+  Got 5 prompts
+    [264/460] OK (2262 chars): I'm running a small SaaS company and my biggest co...
+    [265/460] OK (3712 chars): Can you walk me through the prisoner's dilemma as ...
+  Claude error (attempt 1): The read operation timed out
+    [266/460] OK (2218 chars): Hot take request: I've seen a lot of business stra...
+    [267/460] OK (3256 chars): I'm preparing for a salary negotiation next week. ...
+    [268/460] OK (5148 chars): We're a mid-size retailer deciding whether to inve...
+  Prompts for: cognitive biases and how to avoid them
+  Got 5 prompts
+    [269/460] OK (2533 chars): I just realized I've been falling for confirmation...
+    [270/460] OK (2289 chars): My team lead says the sunk cost fallacy isn't real...
+  Claude error (attempt 1): Server error '502 Bad Gateway' for url 'https://api.vibecode-claude.online/v1/messages'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+    [271/460] OK (4012 chars): I'm writing a research paper on debiasing techniqu...
+    [272/460] OK (3378 chars): I noticed that whenever I interview job candidates...
+    [273/460] OK (2595 chars): Here's a controversial one — aren't cognitive bias...
+  Prompts for: framework for prioritization and focus
+  Got 5 prompts
+    [274/460] OK (3436 chars): I'm a senior PM at a mid-size SaaS company and I'v...
+    [275/460] OK (3288 chars): I've tried RICE scoring, MoSCoW, and weighted shor...
+    [276/460] OK (2031 chars): I'm a solo founder working on my startup nights an...
+    [277/460] OK (3599 chars): Our engineering org just adopted OKRs and now ever...
+    [278/460] OK (2086 chars): I read somewhere that Warren Buffett's 25-5 rule —...
+
+--- coding_en (en) ---
+  Prompts for: designing a scalable system architecture
+  Got 5 prompts
+    [279/460] OK (2805 chars): I'm building a SaaS platform for project managemen...
+    [280/460] OK (5470 chars): We have an event-driven architecture using Kafka f...
+    [281/460] OK (5337 chars): I'm a junior dev and my tech lead asked me to prop...
+    [282/460] OK (3357 chars): Hot take request: I think service meshes like Isti...
+    [283/460] OK (6201 chars): We're designing a multi-tenant architecture for a ...
+  Prompts for: debugging a tricky concurrency issue
+  Got 5 prompts
+    [284/460] OK (2155 chars): I have a Go service where two goroutines are updat...
+    [285/460] OK (3695 chars): I'm losing my mind with a race condition in my Pyt...
+    [286/460] OK (2445 chars): Hot take request: my tech lead insists we should n...
+    [287/460] OK (5881 chars): I've got a deadlock in a C++ application that only...
+    [288/460] OK (2664 chars): Can you help me understand why this Rust code comp...
+  Prompts for: writing clean Python with proper error handling
+  Got 5 prompts
+    [289/460] OK (3817 chars): I've got a Flask endpoint that reads a CSV file, p...
+    [290/460] OK (2957 chars): I keep seeing people argue online that you should ...
+    [291/460] OK (1823 chars): I'm a beginner and I wrote this function to divide...
+    [292/460] OK (6091 chars): I'm building a data pipeline that calls three exte...
+  Claude error (attempt 1): The read operation timed out
+    [293/460] OK (4301 chars): I'm working on a library that other teams will imp...
+  Prompts for: API design best practices with examples
+  Got 5 prompts
+    [294/460] OK (2473 chars): I'm building a REST API for an e-commerce platform...
+    [295/460] OK (2286 chars): I've seen some APIs return 200 with an error body ...
+    [296/460] OK (4115 chars): I'm designing a public API for a SaaS product and ...
+    [297/460] OK (7847 chars): We have a GraphQL API that's gotten out of hand — ...
+    [298/460] OK (2118 chars): I'm a junior dev and I keep getting confused about...
+  Prompts for: database schema design for a real app
+  Got 5 prompts
+    [299/460] OK (3156 chars): I'm building a multi-tenant SaaS app for project m...
+    [300/460] OK (1730 chars): Hey, I've got a users table with columns like firs...
+    [301/460] OK (6039 chars): I'm designing the schema for an e-commerce app and...
+    [302/460] OK (2667 chars): Hot take request: I've seen a lot of people say yo...
+    [303/460] OK (4230 chars): I'm working on a social media app where users can ...
+  Prompts for: performance optimization with profiling
+  Got 5 prompts
+    [304/460] OK (2659 chars): I'm running a Django app and response times on one...
+    [305/460] OK (1667 chars): Hot take: most developers waste time micro-optimiz...
+    [306/460] OK (2010 chars): I'm trying to use py-spy to profile a Python proce...
+    [307/460] OK (4251 chars): Can you walk me through how to use Chrome DevTools...
+    [308/460] OK (3523 chars): We have a Java microservice handling ~50k requests...
+  Prompts for: code review with constructive feedback
+  Got 5 prompts
+    [309/460] OK (2728 chars): I just wrote my first Python class for a todo app ...
+    [310/460] OK (1603 chars): Hey, I'm in a debate with my team lead. He insists...
+    [311/460] OK (3340 chars): I'm a senior engineer reviewing a PR from a junior...
+    [312/460] OK (3474 chars): Can you review this Rust function I wrote for a hi...
+    [313/460] OK (3057 chars): I wrote this React component and it works fine, bu...
+
+--- creative_en (en) ---
+  Prompts for: writing compelling product copy
+  Got 5 prompts
+    [314/460] OK (1632 chars): I'm writing product copy for a new ergonomic offic...
+    [315/460] OK (2140 chars): Hot take request: I've seen a lot of DTC brands le...
+    [316/460] OK (3835 chars): I need to write copy for a B2B SaaS tool that auto...
+    [317/460] OK (2412 chars): I'm A/B testing two versions of a product descript...
+    [318/460] OK (3070 chars): I've been copywriting for 6 years and I'm stuck in...
+  Prompts for: crafting a pitch deck narrative
+  Got 5 prompts
+    [319/460] OK (3414 chars): I'm pitching a B2B SaaS startup that does AI-power...
+    [320/460] OK (2291 chars): Hot take request: my co-founder insists we need to...
+    [321/460] OK (4579 chars): I'm a first-time founder building a climate tech h...
+    [322/460] OK (3089 chars): We're a Series B fintech company raising $30M and ...
+    [323/460] OK (2899 chars): I keep hearing that the best pitch decks tell a st...
+  Prompts for: developing a content marketing strategy
+  Got 5 prompts
+    [324/460] OK (2238 chars): I'm a solo founder running a B2B SaaS tool for sma...
+    [325/460] OK (5124 chars): Our content team publishes 3 blog posts a week and...
+    [326/460] OK (2569 chars): Hot take request: I keep hearing that 'thought lea...
+    [327/460] OK (5847 chars): I need to build a content marketing strategy for a...
+    [328/460] OK (3970 chars): We've been repurposing our long-form blog posts in...
+  Prompts for: creating a brand positioning statement
+  Got 5 prompts
+    [329/460] OK (3289 chars): I'm launching a direct-to-consumer oat milk brand ...
+    [330/460] OK (1742 chars): My CEO keeps insisting our brand positioning state...
+    [331/460] OK (2519 chars): We're a B2B cybersecurity firm repositioning from ...
+    [332/460] OK (2120 chars): I've read that a brand positioning statement shoul...
+    [333/460] OK (3827 chars): I'm working on positioning for a new fintech app t...
+  Prompts for: writing technical documentation that people read
+  Got 5 prompts
+    [334/460] OK (2440 chars): I'm a senior backend engineer and I just inherited...
+    [335/460] OK (4642 chars): I need to write an API reference for our public RE...
+    [336/460] OK (3290 chars): Hot take I keep hearing: 'Good code is self-docume...
+    [337/460] OK (4706 chars): I'm writing a runbook for our on-call team to hand...
+    [338/460] OK (4402 chars): We use Confluence and I swear it's where documenta...
+  Prompts for: email sequence for user onboarding
+  Got 5 prompts
+    [339/460] OK (4351 chars): I'm building a SaaS project management tool and ne...
+    [340/460] OK (2193 chars): We currently send a single welcome email when some...
+    [341/460] OK (2230 chars): I've got a 4-email onboarding sequence for my B2B ...
+    [342/460] OK (1734 chars): My cofounder thinks we should personalize our onbo...
+    [343/460] OK (6488 chars): Can you help me map out the logic for a branching ...
+  Prompts for: storytelling for investor presentations
+  Got 5 prompts
+    [344/460] OK (2496 chars): I'm pitching my Series A next week to Sequoia and ...
+    [345/460] OK (2230 chars): I've heard VCs say they fund 'narratives, not spre...
+    [346/460] OK (2980 chars): I'm a technical founder with a PhD in computationa...
+    [347/460] OK (3231 chars): We're raising a $50M Series C and our lead investo...
+    [348/460] OK (1829 chars): I'm preparing for a demo day at Y Combinator and I...
+
+--- creative_ru (ru) ---
+  Prompts for: написание продающего текста для лендинга
+  Got 5 prompts
+    [349/460] OK (2046 chars): Напиши продающий текст для лендинга моего онлайн-к...
+    [350/460] OK (2071 chars): Мне говорят, что на лендинге нужно давить на боли ...
+    [351/460] OK (2529 chars): У меня SaaS-продукт — CRM для небольших стоматолог...
