@@ -6,3 +6,9 @@ data/*.jsonl
 __pycache__/
 *.pyc
 *.gguf
+
+output_v11/
+unsloth_compiled_cache/
+*.pt
+*.safetensors
+logs/

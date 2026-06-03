@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CHIMBISIAI v3 — Training Console</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--cyan:#22d3ee;--dark:#020617;--card:#0f172a;--border:#1e293b;--green:#22c55e;--yellow:#eab308;--red:#ef4444;--purple:#a855f7;--text:#e2e8f0;--muted:#64748b}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--dark);color:var(--text);font-family:"JetBrains Mono",monospace;min-height:100vh;overflow-x:hidden}
+.bg-grid{position:fixed;inset:0;background-image:linear-gradient(rgba(34,211,238,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(34,211,238,.03) 1px,transparent 1px);background-size:50px 50px;pointer-events:none;z-index:0}
+.container{max-width:1100px;margin:0 auto;padding:24px;position:relative;z-index:1}
+header{text-align:center;margin-bottom:32px}
+h1{font-size:2.2em;font-weight:700;background:linear-gradient(135deg,var(--cyan),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+.subtitle{color:var(--muted);font-size:.85em}
+.phase-card{text-align:center;padding:20px;margin-bottom:24px;background:var(--card);border:1px solid var(--border);border-radius:16px;position:relative;overflow:hidden}
+.phase-card::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(34,211,238,.05),transparent 70%)}
+.phase-text{font-size:1.6em;font-weight:600;position:relative}
+.phase-sub{color:var(--muted);font-size:.8em;margin-top:6px;position:relative}
+.indicators{display:flex;gap:16px;justify-content:center;margin-bottom:24px;flex-wrap:wrap}
+.ind{display:flex;align-items:center;gap:8px;background:var(--card);padding:10px 18px;border-radius:10px;border:1px solid var(--border);font-size:.85em}
+.dot{width:12px;height:12px;border-radius:50%;position:relative}
+.dot::after{content:"";position:absolute;inset:-3px;border-radius:50%;animation:pulse 2s infinite}
+.dg{background:var(--green);box-shadow:0 0 12px var(--green)}
+.dg::after{border:2px solid var(--green);animation:pulse-g 2s infinite}
+.dy{background:var(--yellow);box-shadow:0 0 12px var(--yellow)}
+.dy::after{border:2px solid var(--yellow)}
+.dr{background:var(--red);box-shadow:0 0 8px var(--red)}
+.dr::after{border:2px solid var(--red)}
+@keyframes pulse-g{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.4)}}
+.progress-section{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px;margin-bottom:24px}
+.progress-header{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:12px}
+.progress-label{font-size:.9em;color:var(--muted)}
+.progress-value{font-size:1.4em;font-weight:700;color:var(--cyan)}
+.pbar-bg{width:100%;height:32px;background:rgba(30,41,59,.8);border-radius:10px;overflow:hidden;position:relative;border:1px solid var(--border)}
+.pbar{height:100%;background:linear-gradient(90deg,var(--cyan),var(--purple));border-radius:10px;transition:width .8s cubic-bezier(.4,0,.2,1);position:relative}
+.pbar::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,.1),transparent);animation:shimmer 2s infinite}
+@keyframes shimmer{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px}
+@media(max-width:600px){.stats{grid-template-columns:repeat(2,1fr)}}
+.stat{background:rgba(15,23,42,.6);padding:16px;border-radius:12px;text-align:center;border:1px solid var(--border)}
+.stat-val{font-size:1.6em;font-weight:700;color:var(--cyan)}
+.stat-label{font-size:.7em;color:var(--muted);margin-top:4px;text-transform:uppercase;letter-spacing:.5px}
+.logs{display:grid;grid-template-columns:1fr;gap:16px;margin-bottom:20px}
+.log-card{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden}
+.log-header{padding:12px 16px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px;font-size:.85em;font-weight:600}
+.log-icon{font-size:1.1em}
+.log-body{padding:14px 16px;font-size:.75em;color:var(--muted);white-space:pre-wrap;word-break:break-all;max-height:180px;overflow-y:auto;line-height:1.7}
+.log-body::-webkit-scrollbar{width:4px}
+.log-body::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px}
+.footer{text-align:center;color:var(--muted);font-size:.75em;padding:16px 0;border-top:1px solid var(--border)}
+.live-dot{display:inline-block;width:8px;height:8px;background:var(--green);border-radius:50%;margin-right:6px;animation:blink 1.5s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.speed-badge{display:inline-block;background:rgba(34,211,238,.1);color:var(--cyan);padding:4px 10px;border-radius:6px;font-size:.75em;margin-top:8px}
+</style>
+</head>
+<body>
+<div class="bg-grid"></div>
+<div class="container">
+<header>
+<h1>CHIMBISIAI v3</h1>
+<div class="subtitle">Training Pipeline Console</div>
+</header>
+
+<div class="phase-card">
+<div class="phase-text" id="phase">Connecting...</div>
+<div class="phase-sub" id="phase-sub">Initializing</div>
+</div>
+
+<div class="indicators">
+<div class="ind"><span class="dot dy" id="gd"></span>Generator</div>
+<div class="ind"><span class="dot dy" id="td"></span>Training</div>
+<div class="ind"><span class="dot dy" id="wd"></span>Watcher</div>
+<div class="ind"><span class="live-dot"></span><span id="upd">—</span></div>
+</div>
+
+<div class="progress-section">
+<div class="progress-header">
+<span class="progress-label">Dataset Generation</span>
+<span class="progress-value" id="pv">0%</span>
+</div>
+<div class="pbar-bg"><div class="pbar" id="pb" style="width:0%"></div></div>
+<div class="stats">
+<div class="stat"><div class="stat-val" id="s">—</div><div class="stat-label">Samples</div></div>
+<div class="stat"><div class="stat-val" id="tgt">2000</div><div class="stat-label">Target</div></div>
+<div class="stat"><div class="stat-val" id="spd">—</div><div class="stat-label">Speed</div></div>
+<div class="stat"><div class="stat-val" id="eta">—</div><div class="stat-label">ETA</div></div>
+</div>
+</div>
+
+<div class="logs">
+<div class="log-card">
+<div class="log-header"><span class="log-icon">📝</span> Generation Output</div>
+<div class="log-body" id="gl">Waiting for data...</div>
+</div>
+<div class="log-card">
+<div class="log-header"><span class="log-icon">🔥</span> Training Output</div>
+<div class="log-body" id="tl">Waiting for generation to complete...</div>
+</div>
+<div class="log-card">
+<div class="log-header"><span class="log-icon">👁</span> Watch Monitor</div>
+<div class="log-body" id="wl">—</div>
+</div>
+</div>
+
+<div class="footer">CHIMBISIAI v3 Training Pipeline &bull; Auto-refresh 10s &bull; GPU: vm-6691</div>
+</div>
+
+<script>
+let hist=[];const MAX_HIST=10;
+const P={"GENERATING":"📝 Генерация данных","TRAINING":"🔥 ОБУЧЕНИЕ МОДЕЛИ","PREPARING":"⏳ Подготовка к обучению","IDLE":"💤 Ожидание","UNKNOWN":"❓ Нет данных"};
+const PS={"GENERATING":"Создание обучающего датасета","TRAINING":"Fine-tuning Qwen2.5-7B на собранных данных","PREPARING":"Генерация завершена, запуск обучения...","IDLE":"Процессы не активны","UNKNOWN":"Нет связи с сервером"};
+
+async function r(){try{const d=await(await fetch("/api/status")).json();
+document.getElementById("phase").textContent=P[d.phase]||d.phase;
+document.getElementById("phase-sub").textContent=PS[d.phase]||"";
+document.getElementById("pb").style.width=d.percent+"%";
+document.getElementById("pv").textContent=d.percent+"%";
+document.getElementById("s").textContent=d.samples.toLocaleString();
+document.getElementById("tgt").textContent=d.target.toLocaleString();
+
+// Speed & ETA
+hist.push({t:Date.now(),s:d.samples});
+if(hist.length>MAX_HIST)hist.shift();
+if(hist.length>=2){
+const first=hist[0],last=hist[hist.length-1];
+const dt=(last.t-first.t)/60000;
+const ds=last.s-first.s;
+if(dt>0&&ds>0){
+const rate=(ds/dt).toFixed(1);
+document.getElementById("spd").textContent=rate+"/min";
+const rem=d.target-d.samples;
+const mins=Math.round(rem/(ds/dt));
+document.getElementById("eta").textContent=mins>60?Math.floor(mins/60)+"h "+mins%60+"m":mins+"m";
+}}
+
+document.getElementById("gd").className="dot "+(d.gen_running?"dg":"dr");
+document.getElementById("td").className="dot "+(d.train_running?"dg":"dy");
+document.getElementById("wd").className="dot "+(d.watch_log?"dg":"dr");
+document.getElementById("gl").textContent=d.gen_log||"No output yet";
+document.getElementById("tl").textContent=d.train_log||"Waiting for generation to complete ("+d.samples+"/"+d.target+")";
+document.getElementById("wl").textContent=d.watch_log||"—";
+document.getElementById("upd").textContent="Live • "+d.updated;
+}catch(e){document.getElementById("phase").textContent="⚠️ Connection Error";document.getElementById("phase-sub").textContent=e.message}}
+r();setInterval(r,10000);
+</script>
+</body></html>

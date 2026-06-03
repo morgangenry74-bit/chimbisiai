@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CHIMBISIAI v2 — Chat</title>
+<title>CHIMBISIAI v3 — Chat</title>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e0e0e0; height: 100vh; display: flex; flex-direction: column; }
@@ -25,7 +25,7 @@ header span { font-size: 13px; color: #888; }
 </head>
 <body>
 <header>
-<h1>🤖 CHIMBISIAI v2</h1>
+<h1>🤖 CHIMBISIAI v3</h1>
 <span>Qwen2.5-7B fine-tuned | RTX 3090 | Ollama</span>
 </header>
 <div id="chat"></div>
@@ -61,7 +61,7 @@ async function sendMsg() {
     const resp = await fetch('/api/generate', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({model: 'chimbisiai:v2', prompt: text, stream: false})
+      body: JSON.stringify({model: 'chimbisiai-v3', prompt: text, stream: false})
     });
     const data = await resp.json();
     loading.textContent = data.response || 'Ошибка: пустой ответ';

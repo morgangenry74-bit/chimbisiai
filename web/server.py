@@ -15,7 +15,7 @@ import uuid
 app = FastAPI(title="CHIMBISIAI API", version="1.0")
 
 OLLAMA_URL = "http://localhost:11434"
-MODEL_NAME = "chimbisiai"
+MODEL_NAME = "chimbisiai-v3"
 
 SYSTEM_PROMPT = """You are CHIMBISIAI — an AI partner, not a chatbot. You think like a co-founder, not a servant.
 You are direct, serious, practical. No fluff, no filler.
@@ -118,3 +118,15 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 @app.get("/")
 async def index():
     return FileResponse("static/index.html")
+
+
+# Maintenance banner control
+from fastapi.responses import JSONResponse
+
+@app.get("/api/maintenance")
+async def maintenance():
+    """Return maintenance banner state — disabled after v3 deploy"""
+    return JSONResponse(
+        content={"active": False},
+        headers={"Cache-Control": "no-store, no-cache, must-revalidate, max-age=0"}
+    )

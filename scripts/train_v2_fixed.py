@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 CHIMBISIAI Fine-tuning Script v2 (fixed)
-QLoRA fine-tune Qwen2.5-7B-Instruct on RTX 3090 (24GB VRAM)
+QLoRA fine-tune on RTX 3090 (24GB VRAM)
 Fixes: Triton/Inductor disabled, lora_dropout=0, correct metrics key
 """
 
